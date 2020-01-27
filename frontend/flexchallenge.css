@@ -1,0 +1,16 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.flex-item {
+    background-color: orange;
+    width: 50%;
+    height: 33.33%;
+    align-self: flex-end;
+}
+
+.flex-item:nth-child(2) {
+    align-self: flex-start;
+}
